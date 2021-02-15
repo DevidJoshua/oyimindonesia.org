@@ -1,5 +1,5 @@
 ---
-    deployment:
-      tasks:
-        - export DEPLOYPATH=/home/user/oyimindonesia.org/
-        - /build/cp -R build $DEPLOYPATH
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/user/oyimindonesia.org/
+    - /bin/cp -a * $DEPLOYPATH
