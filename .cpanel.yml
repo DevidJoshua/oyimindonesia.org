@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/oyimindonesia.org/
+    - export DEPLOYPATH=/home/rumahco2/oyimindonesia.org/
     - /bin/cp -a assets $DEPLOYPATH
     - /bin/cp -a index.html $DEPLOYPATH
