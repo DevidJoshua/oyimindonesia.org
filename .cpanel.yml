@@ -2,4 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/user/oyimindonesia.org/
-    - /bin/cp -a * $DEPLOYPATH
+    - /bin/cp -a assets $DEPLOYPATH
+    - /bin/cp -a index.html $DEPLOYPATH
